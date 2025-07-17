@@ -756,7 +756,7 @@
 		(path "/dcc15405-3c50-41e1-a6bd-1044dddd0982")
 		(sheetname "/")
 		(sheetfile "ch552-daplink.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 0.685 -0.81)
 			(end 0.685 0)
