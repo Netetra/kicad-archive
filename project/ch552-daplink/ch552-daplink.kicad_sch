@@ -412,24 +412,27 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x06_Pin"
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016)
+				(offset 0.762)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 7.62 0)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x06_Pin"
-				(at 0 -10.16 0)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -437,7 +440,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at 5.08 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -446,6 +449,15 @@
 				)
 			)
 			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
 				(at 0 0 0)
 				(effects
 					(font
@@ -454,7 +466,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x06, script generated"
+			(property "ki_keywords" "test point tp"
 				(at 0 0 0)
 				(effects
 					(font
@@ -463,15 +475,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
+			(property "ki_fp_filters" "Pin* Test*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -480,158 +484,24 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
 					)
-					(hide yes)
+					(fill
+						(type none)
+					)
 				)
 			)
-			(symbol "Conn_01x06_Pin_1_1"
-				(rectangle
-					(start 0.8636 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -7.493)
-					(end 0 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 5.08) (xy 0.8636 5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -7.62) (xy 0.8636 -7.62)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "TestPoint_1_1"
 				(pin passive line
-					(at 5.08 5.08 180)
-					(length 3.81)
-					(name "Pin_1"
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -639,96 +509,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -7.62 180)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3514,86 +3294,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x06_Pin")
-		(at 139.7 114.3 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "10fa8aa1-50d5-4d04-87d6-ee27e1d0ca40")
-		(property "Reference" "J2"
-			(at 139.7 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x06_Pin"
-			(at 139.7 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Wuerth:Wuerth_WR-WTB_64800611622_1x06_P1.50mm_Vertical"
-			(at 139.7 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 139.7 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fb20f09b-a5ad-4c57-af7d-1939e2970ab0")
-		)
-		(pin "1"
-			(uuid "73aba00b-e4eb-4ada-b8ad-244deb770d62")
-		)
-		(pin "4"
-			(uuid "7c6b93dd-2e7a-47ae-b18e-f73ebe5594f2")
-		)
-		(pin "5"
-			(uuid "344469a5-8b67-4b7c-aaad-e037a71b35fd")
-		)
-		(pin "3"
-			(uuid "1cc7fb93-d45f-455d-a43e-1de4c0a6b90b")
-		)
-		(pin "6"
-			(uuid "2a9e2544-d48c-4fb4-b563-f22b5e84b18e")
-		)
-		(instances
-			(project ""
-				(path "/175426c9-cf0b-4df2-85ad-3a55b6a62adf"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 151.13 116.84 270)
 		(unit 1)
@@ -3655,6 +3355,71 @@
 			(project "ch552-daplink"
 				(path "/175426c9-cf0b-4df2-85ad-3a55b6a62adf"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 144.78 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27f6e6bd-5fda-41b4-adf0-cd1786a4c725")
+		(property "Reference" "TP6"
+			(at 138.43 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 141.478 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+			(at 144.78 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a8794ec-816d-47a8-a18c-c572b19f2fc5")
+		)
+		(instances
+			(project "ch552-daplink"
+				(path "/175426c9-cf0b-4df2-85ad-3a55b6a62adf"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -3855,6 +3620,71 @@
 			(project ""
 				(path "/175426c9-cf0b-4df2-85ad-3a55b6a62adf"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 144.78 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3254350e-3a6c-4fde-9f63-102083dda006")
+		(property "Reference" "TP3"
+			(at 138.43 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 141.478 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+			(at 144.78 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f104574a-4e9f-4c2b-82e2-baa77bade4e1")
+		)
+		(instances
+			(project "ch552-daplink"
+				(path "/175426c9-cf0b-4df2-85ad-3a55b6a62adf"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -4491,6 +4321,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 144.78 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ba297bd-c41c-4146-9a43-264b0cc4980c")
+		(property "Reference" "TP2"
+			(at 138.43 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 141.478 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+			(at 144.78 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57071a2f-35b9-421d-88ed-6f13e7af5647")
+		)
+		(instances
+			(project "ch552-daplink"
+				(path "/175426c9-cf0b-4df2-85ad-3a55b6a62adf"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 151.13 62.23 0)
 		(unit 1)
@@ -4889,6 +4784,136 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 144.78 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae4fa44b-4f56-4828-8ded-3708dd807514")
+		(property "Reference" "TP4"
+			(at 138.43 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 141.478 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+			(at 144.78 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b1bc53c-d0fa-4813-9089-d3b81d1a7b82")
+		)
+		(instances
+			(project "ch552-daplink"
+				(path "/175426c9-cf0b-4df2-85ad-3a55b6a62adf"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 144.78 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b53d5649-d56f-475b-8e4b-3c12b053e1c5")
+		(property "Reference" "TP1"
+			(at 138.43 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 141.478 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+			(at 144.78 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12e70b51-be91-4335-8e08-6937d61c365d")
+		)
+		(instances
+			(project ""
+				(path "/175426c9-cf0b-4df2-85ad-3a55b6a62adf"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 115.57 107.95 0)
 		(unit 1)
@@ -5016,6 +5041,71 @@
 			(project "ch552-daplink"
 				(path "/175426c9-cf0b-4df2-85ad-3a55b6a62adf"
 					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 144.78 109.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c19d4317-33e3-430a-ae71-e0f90960b259")
+		(property "Reference" "TP5"
+			(at 138.43 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 141.478 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+			(at 144.78 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1cef903-dee1-422b-b734-cf8fe2df55bb")
+		)
+		(instances
+			(project "ch552-daplink"
+				(path "/175426c9-cf0b-4df2-85ad-3a55b6a62adf"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
