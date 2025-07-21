@@ -166721,6 +166721,136 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "←V-Cut"
+		(at 123.5 179.5 270)
+		(layer "Edge.Cuts")
+		(uuid "072ca015-4131-487c-b703-9cb7cebe945a")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "←V-Cut"
+		(at 145.5 168 0)
+		(layer "Edge.Cuts")
+		(uuid "16bf5dd5-4702-46a2-ab70-c7f6a7d578e1")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "←V-Cut"
+		(at 145.5 110.5 0)
+		(layer "Edge.Cuts")
+		(uuid "5f921ba7-c9d0-4aaa-a4dd-313398891081")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "←V-Cut"
+		(at 145.5 99 0)
+		(layer "Edge.Cuts")
+		(uuid "67839630-1d88-454c-bfec-9c0afef94e86")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "←V-Cut"
+		(at 145.5 122 0)
+		(layer "Edge.Cuts")
+		(uuid "7ed90432-cf6c-4faf-8e4f-5b5175c25648")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "←V-Cut"
+		(at 101.5 179.5 270)
+		(layer "Edge.Cuts")
+		(uuid "7fd203d1-8498-4c8c-bb3f-8c1f88cfacf1")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "←V-Cut"
+		(at 145.5 145 0)
+		(layer "Edge.Cuts")
+		(uuid "83866ecc-b723-4f09-bdd6-5a1b9b4756a3")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "←V-Cut"
+		(at 79.5 179.5 270)
+		(layer "Edge.Cuts")
+		(uuid "cf47e383-97cb-4ce1-a0df-305d6ecd48dc")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "←V-Cut"
+		(at 145.5 156.5 0)
+		(layer "Edge.Cuts")
+		(uuid "ea07b724-fa41-497c-a357-fbb84db65ea9")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "←V-Cut"
+		(at 145.5 133.5 0)
+		(layer "Edge.Cuts")
+		(uuid "eec6d758-4a90-4ab7-84a8-4603940ae89c")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
 	(segment
 		(start 75.7 175.25)
 		(end 75.2 175.25)
