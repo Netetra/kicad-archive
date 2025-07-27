@@ -59,7 +59,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "ch334-usbhub.kicad_prl",
+    "filename": "ch334-usbhub_vcut.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {

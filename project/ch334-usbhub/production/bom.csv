@@ -1,0 +1,13 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"C1_3, C1_2, C1",CP_Radial_D10.0mm_P5.00mm,3,470uF25V125℃ PZJ,
+"C10_3, C10_2, C10, C11_3, C11_2, C11, C5_3, C5_2, C5, C7_3, C7_2, C7",0603,12,10uF,
+"C2_3, C2_2, C2",0603,3,0.1uF,
+"C3_3, C3_2, C3",0603,3,1uF,
+"C4_3, C4_2, C4, C6_3, C6_2, C6, C8_3, C8_2, C8, C9_3, C9_2, C9",CP_Radial_D10.0mm_P5.00mm,12,100uF,
+"J1_3, J1_2, J1",USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal,3,USB_C_Receptacle_USB2.0_16P,
+"J2_3, J2_2, J2, J3_3, J3_2, J3, J4_3, J4_2, J4, J5_3, J5_2, J5",USB_A_Molex_67643_Horizontal,12,USB_A,
+"R1_3, R1_2, R1, R2_3, R2_2, R2",0603,6,5.1kΩ,
+"R3_3, R3_2, R3, R4_3, R4_2, R4, R5_3, R5_2, R5, R6_3, R6_2, R6, R7_3, R7_2, R7",0603,15,56kΩ,
+"U1_3, U1_2, U1",QSOP-16_3.9x4.9mm_P0.635mm,3,CH334R,
+"U10_3, U10_2, U10, U11_3, U11_2, U11, U4_3, U4_2, U4, U6_3, U6_2, U6, U9_3, U9_2, U9",SOT-23-6,15,CH217,
+"U2_3, U2_2, U2, U3_3, U3_2, U3, U5_3, U5_2, U5, U7_3, U7_2, U7, U8_3, U8_2, U8",SOT-23-6,15,USBLC6-2SC6,
