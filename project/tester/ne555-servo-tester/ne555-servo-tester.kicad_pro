@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -64,7 +64,7 @@
       },
       "rule_severities": {
         "annular_width": "error",
-        "clearance": "ignore",
+        "clearance": "error",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
@@ -79,7 +79,7 @@
         "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
-        "hole_clearance": "ignore",
+        "hole_clearance": "error",
         "hole_to_hole": "warning",
         "holes_co_located": "warning",
         "invalid_outline": "error",
@@ -139,7 +139,7 @@
         "min_track_width": 0.16,
         "min_via_annular_width": 0.05,
         "min_via_diameter": 0.25,
-        "solder_mask_to_copper_clearance": 0.005,
+        "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -188,7 +188,6 @@
       ],
       "track_widths": [
         0.0,
-        0.2,
         0.5
       ],
       "tuning_pattern_settings": {
@@ -223,8 +222,8 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.45,
-          "drill": 0.3
+          "diameter": 0.55,
+          "drill": 0.45
         }
       ],
       "zones_allow_external_fillets": false
@@ -470,7 +469,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ch552-daplink.kicad_pro",
+    "filename": "ne555-servo-tester.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -630,7 +629,7 @@
   },
   "sheets": [
     [
-      "175426c9-cf0b-4df2-85ad-3a55b6a62adf",
+      "5a1d6916-8d2f-4434-adb1-40d356fb463e",
       "Root"
     ]
   ],

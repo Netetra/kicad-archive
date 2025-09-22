@@ -64,7 +64,7 @@
       },
       "rule_severities": {
         "annular_width": "error",
-        "clearance": "ignore",
+        "clearance": "error",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
@@ -79,7 +79,7 @@
         "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
-        "hole_clearance": "ignore",
+        "hole_clearance": "error",
         "hole_to_hole": "warning",
         "holes_co_located": "warning",
         "invalid_outline": "error",
@@ -189,7 +189,8 @@
       "track_widths": [
         0.0,
         0.2,
-        0.5
+        0.5,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -470,7 +471,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ch552-daplink.kicad_pro",
+    "filename": "usb-c-solder-tester.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -630,7 +631,7 @@
   },
   "sheets": [
     [
-      "175426c9-cf0b-4df2-85ad-3a55b6a62adf",
+      "1ffc8a7d-446d-4d87-80cb-e72e4474d330",
       "Root"
     ]
   ],

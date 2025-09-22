@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -58,13 +58,38 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_edge_clearance|162000000|84440000|5af1dd00-71bb-476f-93f3-8ac562dbed79|7ff7541a-148c-4cb2-a022-49ee2bad2b16",
+          ""
+        ],
+        [
+          "silk_edge_clearance|162000000|94560000|5af1dd00-71bb-476f-93f3-8ac562dbed79|760e86c5-075c-4405-b365-8c495bb98665",
+          ""
+        ],
+        [
+          "silk_edge_clearance|162010000|84440000|5af1dd00-71bb-476f-93f3-8ac562dbed79|6e1bfb4b-0f49-4db9-b261-ca2fd87266b9",
+          ""
+        ],
+        [
+          "silk_edge_clearance|162010000|84970000|5af1dd00-71bb-476f-93f3-8ac562dbed79|6876f7a0-88ae-41bb-be43-214cbedfa626",
+          ""
+        ],
+        [
+          "silk_edge_clearance|162010000|94030000|5af1dd00-71bb-476f-93f3-8ac562dbed79|81e8442c-1fdb-4462-bb12-f10fc9360f95",
+          ""
+        ],
+        [
+          "silk_edge_clearance|162010000|94030000|5af1dd00-71bb-476f-93f3-8ac562dbed79|cbab9628-a55a-4b07-b33e-20219f1cc326",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
       "rule_severities": {
         "annular_width": "error",
-        "clearance": "ignore",
+        "clearance": "error",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
@@ -79,7 +104,7 @@
         "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
-        "hole_clearance": "ignore",
+        "hole_clearance": "error",
         "hole_to_hole": "warning",
         "holes_co_located": "warning",
         "invalid_outline": "error",
@@ -189,7 +214,9 @@
       "track_widths": [
         0.0,
         0.2,
-        0.5
+        0.5,
+        1.0,
+        3.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -225,6 +252,10 @@
         {
           "diameter": 0.45,
           "drill": 0.3
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.45
         }
       ],
       "zones_allow_external_fillets": false
@@ -470,7 +501,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ch552-daplink.kicad_pro",
+    "filename": "dc-v1_vcut.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -630,7 +661,7 @@
   },
   "sheets": [
     [
-      "175426c9-cf0b-4df2-85ad-3a55b6a62adf",
+      "1ffc8a7d-446d-4d87-80cb-e72e4474d330",
       "Root"
     ]
   ],
