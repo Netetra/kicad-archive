@@ -2183,7 +2183,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 99.06) (xy 91.44 99.06)
+			(xy 88.9 99.06) (xy 91.44 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2683,7 +2683,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 104.14) (xy 91.44 104.14)
+			(xy 88.9 104.14) (xy 91.44 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2753,7 +2753,7 @@
 	)
 	(global_label "THRESHOLD"
 		(shape output)
-		(at 90.17 99.06 180)
+		(at 88.9 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2763,7 +2763,7 @@
 		)
 		(uuid "08a9ee88-62be-4fe4-882f-2d5728a422a6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.2991 99.06 0)
+			(at 75.0291 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2775,7 +2775,7 @@
 	)
 	(global_label "TRIGGER"
 		(shape output)
-		(at 90.17 104.14 180)
+		(at 88.9 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2785,7 +2785,7 @@
 		)
 		(uuid "2c1a2e93-18e4-48f0-a747-427cbc4fc08d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.3834 104.14 0)
+			(at 78.1134 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
