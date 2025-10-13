@@ -59,7 +59,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "dc-v2.kicad_prl",
+    "filename": "jlcpcb.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {

@@ -58,7 +58,44 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|116087500|97725000|d9214e85-1786-4d63-8e89-0980fd2d09d1|0691e7fe-db4e-44d8-9e36-465fb9345c55",
+          ""
+        ],
+        [
+          "clearance|116412500|93500000|8aea29cc-f364-414a-ae66-4649c051afb3|aece1be0-a314-4b15-a451-22ff53affe4b",
+          ""
+        ],
+        [
+          "clearance|116587500|97725000|0691e7fe-db4e-44d8-9e36-465fb9345c55|4c04492b-1114-4745-95ab-d41a3173ae46",
+          ""
+        ],
+        [
+          "clearance|116912500|93500000|33506798-39c4-4749-bb1d-206b5389fc21|8aea29cc-f364-414a-ae66-4649c051afb3",
+          ""
+        ],
+        [
+          "clearance|117087500|97725000|4c04492b-1114-4745-95ab-d41a3173ae46|5fbcb986-5712-4b77-8617-a1104af36692",
+          ""
+        ],
+        [
+          "clearance|117412500|93500000|16e819c2-3a06-4eca-83f2-a494bde350cb|33506798-39c4-4749-bb1d-206b5389fc21",
+          ""
+        ],
+        [
+          "clearance|117587500|97725000|5fbcb986-5712-4b77-8617-a1104af36692|87c4436b-7ff6-4bd5-b4a3-16ed2c2702b5",
+          ""
+        ],
+        [
+          "clearance|117912500|93500000|2bf9838b-5e95-40a6-adf3-1bafca3a6edc|16e819c2-3a06-4eca-83f2-a494bde350cb",
+          ""
+        ],
+        [
+          "courtyards_overlap|103559797|89685000|181259f1-9bd4-47e0-8b0d-9699eac7431b|5467aa9d-e8b0-4c1b-b0e2-f8c45988a1d7",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -471,7 +508,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "dc-v2.kicad_pro",
+    "filename": "f303k8-led-matrix-4layer.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -580,38 +617,14 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "説明",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "",
+      "name": "Default Editing",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "リファレンス"
     },
     "connection_grid_size": 50.0,
     "drawing": {
