@@ -472,7 +472,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ir2302-half-bridge.kicad_pro",
+    "filename": "half-bridge-smd.kicad_pro",
     "version": 3
   },
   "net_settings": {

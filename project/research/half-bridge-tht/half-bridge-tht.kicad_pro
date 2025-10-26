@@ -190,7 +190,8 @@
         0.0,
         0.2,
         0.5,
-        1.0
+        1.0,
+        2.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -471,7 +472,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "bicycle-headlight.kicad_pro",
+    "filename": "half-bridge-tht.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -629,6 +630,11 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "1ffc8a7d-446d-4d87-80cb-e72e4474d330",
+      "Root"
+    ]
+  ],
   "text_variables": {}
 }
