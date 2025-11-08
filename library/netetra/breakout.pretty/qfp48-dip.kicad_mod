@@ -6,7 +6,7 @@
 	(descr "Through hole straight pin header, 1x24, 2.54mm pitch, single row")
 	(tags "Through hole pin header THT 1x24 2.54mm single row")
 	(property "Reference" "REF**"
-		(at -8.89 -2.38 0)
+		(at -3.175 -2.38 0)
 		(layer "F.SilkS")
 		(uuid "b9318ae1-f893-4310-a2a9-7a2c35fc27e1")
 		(effects
@@ -184,7 +184,7 @@
 	)
 	(fp_line
 		(start -10.66 60.19)
-		(end -7.12 60.19)
+		(end -6.985 60.19)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -193,7 +193,7 @@
 		(uuid "a291cc4f-fe15-4a1f-b6b1-49e6a6562812")
 	)
 	(fp_line
-		(start -7.12 -1.78)
+		(start -6.985 -1.78)
 		(end -10.66 -1.78)
 		(stroke
 			(width 0.05)
@@ -203,7 +203,27 @@
 		(uuid "c74061ef-363d-4b88-9fb8-1d83a7323ece")
 	)
 	(fp_line
-		(start -7.12 60.19)
+		(start -6.985 61.2)
+		(end -6.985 -1.78)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "afd2a2b8-2564-4372-a969-c42cab9a6ca8")
+	)
+	(fp_line
+		(start 6.985 60.19)
+		(end 6.985 -1.78)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5d5c2586-faf4-4478-91a8-74c8178df345")
+	)
+	(fp_line
+		(start 6.985 60.19)
 		(end 10.66 60.19)
 		(stroke
 			(width 0.05)
@@ -214,7 +234,7 @@
 	)
 	(fp_line
 		(start 10.66 -1.78)
-		(end -7.12 -1.78)
+		(end 6.985 -1.78)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -741,13 +761,24 @@
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x24_P2.54mm_Vertical.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz -9 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x24_P2.54mm_Vertical.step"
+		(offset
+			(xyz 9 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
 		)
 	)
 )

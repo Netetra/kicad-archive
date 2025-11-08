@@ -1,4 +1,4 @@
-26595611136666180
+26600898873273097
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106042,6 +106042,27 @@ CH25-2032LF
 0
 2
 2
+breakout
+qfp48-dip
+Through hole straight pin header, 1x24, 2.54mm pitch, single row
+Through hole pin header THT 1x24 2.54mm single row
+0
+48
+48
+breakout_board
+usb-dip
+
+
+0
+8
+4
+breakout_board
+usbc-dip
+
+
+0
+11
+7
 heat_sink
 16PB017
 
