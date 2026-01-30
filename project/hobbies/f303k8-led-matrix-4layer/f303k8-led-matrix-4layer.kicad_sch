@@ -10001,7 +10001,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02dc7ef0-68e5-4704-8530-bd106f61d606")
-		(property "Reference" "D29"
+		(property "Reference" "D24"
 			(at 237.1725 66.04 0)
 			(effects
 				(font
@@ -10062,7 +10062,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D29")
+					(reference "D24")
 					(unit 1)
 				)
 			)
@@ -10078,7 +10078,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05134282-7990-4f9a-a0c3-80873058cc9e")
-		(property "Reference" "D10"
+		(property "Reference" "D14"
 			(at 204.1525 49.53 0)
 			(effects
 				(font
@@ -10139,7 +10139,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D10")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -10222,7 +10222,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a7708dc-6ee6-49bc-8985-6631722bdfcd")
-		(property "Reference" "D16"
+		(property "Reference" "D17"
 			(at 253.6825 49.53 0)
 			(effects
 				(font
@@ -10283,7 +10283,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D16")
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -10376,7 +10376,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c21247a-85da-4722-af1f-306243262692")
-		(property "Reference" "D45"
+		(property "Reference" "D53"
 			(at 187.6425 132.08 0)
 			(effects
 				(font
@@ -10437,7 +10437,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D45")
+					(reference "D53")
 					(unit 1)
 				)
 			)
@@ -10453,7 +10453,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d27669a-d768-43ac-b3be-df2c8f469faf")
-		(property "Reference" "D33"
+		(property "Reference" "D26"
 			(at 270.1925 66.04 0)
 			(effects
 				(font
@@ -10514,7 +10514,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D33")
+					(reference "D26")
 					(unit 1)
 				)
 			)
@@ -10530,7 +10530,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13f392db-19a8-4635-9c8e-8832fdda9a05")
-		(property "Reference" "D41"
+		(property "Reference" "D52"
 			(at 171.1325 132.08 0)
 			(effects
 				(font
@@ -10591,7 +10591,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D41")
+					(reference "D52")
 					(unit 1)
 				)
 			)
@@ -10684,7 +10684,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d762b0d-214e-4297-af1b-bb7c0142440c")
-		(property "Reference" "D53"
+		(property "Reference" "D55"
 			(at 220.6625 132.08 0)
 			(effects
 				(font
@@ -10745,7 +10745,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D53")
+					(reference "D55")
 					(unit 1)
 				)
 			)
@@ -10761,7 +10761,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2106d497-514b-4eb5-bd84-1f5d5165e35e")
-		(property "Reference" "D52"
+		(property "Reference" "D47"
 			(at 220.6625 115.57 0)
 			(effects
 				(font
@@ -10822,7 +10822,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D52")
+					(reference "D47")
 					(unit 1)
 				)
 			)
@@ -10908,7 +10908,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22ae78b3-16d0-4975-a6cb-7ae12bf8febd")
-		(property "Reference" "D63"
+		(property "Reference" "D42"
 			(at 270.1925 99.06 0)
 			(effects
 				(font
@@ -10969,7 +10969,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D63")
+					(reference "D42")
 					(unit 1)
 				)
 			)
@@ -11188,7 +11188,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26ae161a-db66-4d1b-a748-0dffe5fee813")
-		(property "Reference" "D56"
+		(property "Reference" "D48"
 			(at 237.1725 115.57 0)
 			(effects
 				(font
@@ -11249,7 +11249,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D56")
+					(reference "D48")
 					(unit 1)
 				)
 			)
@@ -11467,7 +11467,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "294bcda2-65ab-4760-8a8f-ddc8930b0b48")
-		(property "Reference" "D55"
+		(property "Reference" "D40"
 			(at 237.1725 99.06 0)
 			(effects
 				(font
@@ -11528,7 +11528,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D55")
+					(reference "D40")
 					(unit 1)
 				)
 			)
@@ -11544,7 +11544,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f665338-6ed4-4fe2-bd8b-bb07a7323d48")
-		(property "Reference" "D40"
+		(property "Reference" "D44"
 			(at 171.1325 115.57 0)
 			(effects
 				(font
@@ -11605,7 +11605,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D40")
+					(reference "D44")
 					(unit 1)
 				)
 			)
@@ -11687,7 +11687,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32befb06-6b72-4a46-824c-83f609f91b4e")
-		(property "Reference" "D48"
+		(property "Reference" "D46"
 			(at 204.1525 115.57 0)
 			(effects
 				(font
@@ -11748,7 +11748,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D48")
+					(reference "D46")
 					(unit 1)
 				)
 			)
@@ -11764,7 +11764,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34d1bb91-0cc0-4ac8-be7e-0e82988aae39")
-		(property "Reference" "D54"
+		(property "Reference" "D63"
 			(at 220.6625 148.59 0)
 			(effects
 				(font
@@ -11825,7 +11825,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D54")
+					(reference "D63")
 					(unit 1)
 				)
 			)
@@ -11977,7 +11977,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3696afc4-e45f-43f0-8954-641ce659fed6")
-		(property "Reference" "D44"
+		(property "Reference" "D45"
 			(at 187.6425 115.57 0)
 			(effects
 				(font
@@ -12038,7 +12038,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D44")
+					(reference "D45")
 					(unit 1)
 				)
 			)
@@ -12124,7 +12124,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37491dd4-ee3d-44af-b564-fa043af88b28")
-		(property "Reference" "D57"
+		(property "Reference" "D56"
 			(at 237.1725 132.08 0)
 			(effects
 				(font
@@ -12185,7 +12185,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D57")
+					(reference "D56")
 					(unit 1)
 				)
 			)
@@ -12337,7 +12337,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "449563f0-6453-4127-9c91-4ebb131c070a")
-		(property "Reference" "D6"
+		(property "Reference" "D12"
 			(at 171.1325 49.53 0)
 			(effects
 				(font
@@ -12398,7 +12398,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D6")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -12484,7 +12484,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "482525bb-70e6-46c6-ad37-380631b43971")
-		(property "Reference" "D43"
+		(property "Reference" "D37"
 			(at 187.6425 99.06 0)
 			(effects
 				(font
@@ -12545,7 +12545,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D43")
+					(reference "D37")
 					(unit 1)
 				)
 			)
@@ -12561,7 +12561,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49dba990-aaac-459e-9594-c7e563173f88")
-		(property "Reference" "D5"
+		(property "Reference" "D4"
 			(at 171.1325 33.02 0)
 			(effects
 				(font
@@ -12622,7 +12622,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D5")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -12770,7 +12770,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f0a4925-8a6c-4eea-849a-9ef1c315535b")
-		(property "Reference" "D32"
+		(property "Reference" "D33"
 			(at 253.6825 82.55 0)
 			(effects
 				(font
@@ -12831,7 +12831,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D32")
+					(reference "D33")
 					(unit 1)
 				)
 			)
@@ -13060,7 +13060,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55527d41-1d09-469f-9805-57300637ead7")
-		(property "Reference" "D58"
+		(property "Reference" "D64"
 			(at 237.1725 148.59 0)
 			(effects
 				(font
@@ -13121,7 +13121,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D58")
+					(reference "D64")
 					(unit 1)
 				)
 			)
@@ -13137,7 +13137,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c1afceb-3233-402a-bdf5-b565e3d25caa")
-		(property "Reference" "D13"
+		(property "Reference" "D8"
 			(at 237.1725 33.02 0)
 			(effects
 				(font
@@ -13198,7 +13198,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D13")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -13425,7 +13425,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f3539b1-2b77-4d6d-b2ca-21303ed0e2f0")
-		(property "Reference" "D8"
+		(property "Reference" "D13"
 			(at 187.6425 49.53 0)
 			(effects
 				(font
@@ -13486,7 +13486,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D8")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -13502,7 +13502,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "607ef536-2b42-4ed0-bcad-319a799618d1")
-		(property "Reference" "D62"
+		(property "Reference" "D65"
 			(at 253.6825 148.59 0)
 			(effects
 				(font
@@ -13563,7 +13563,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D62")
+					(reference "D65")
 					(unit 1)
 				)
 			)
@@ -13649,7 +13649,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "650f239a-3b39-4a34-9a6c-879a11a7263e")
-		(property "Reference" "D24"
+		(property "Reference" "D29"
 			(at 187.6425 82.55 0)
 			(effects
 				(font
@@ -13710,7 +13710,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D24")
+					(reference "D29")
 					(unit 1)
 				)
 			)
@@ -13726,7 +13726,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "650fdb89-70f3-402f-96c3-3c26bb7107ba")
-		(property "Reference" "D23"
+		(property "Reference" "D21"
 			(at 187.6425 66.04 0)
 			(effects
 				(font
@@ -13787,7 +13787,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D23")
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -13803,7 +13803,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67e4abc4-c7e4-449e-ac93-cd5ca61061e1")
-		(property "Reference" "D25"
+		(property "Reference" "D22"
 			(at 204.1525 66.04 0)
 			(effects
 				(font
@@ -13864,7 +13864,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D25")
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -13946,7 +13946,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6882945f-d742-4f88-8d0c-1f38138f2581")
-		(property "Reference" "D61"
+		(property "Reference" "D57"
 			(at 253.6825 132.08 0)
 			(effects
 				(font
@@ -14007,7 +14007,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D61")
+					(reference "D57")
 					(unit 1)
 				)
 			)
@@ -14023,7 +14023,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6916ee2a-cda6-4082-b6f7-168e582a4ccc")
-		(property "Reference" "D47"
+		(property "Reference" "D38"
 			(at 204.1525 99.06 0)
 			(effects
 				(font
@@ -14084,7 +14084,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D47")
+					(reference "D38")
 					(unit 1)
 				)
 			)
@@ -14192,7 +14192,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cb001aa-262b-4d9c-aeef-24dc4eeb0ab7")
-		(property "Reference" "D37"
+		(property "Reference" "D51"
 			(at 154.6225 132.08 0)
 			(effects
 				(font
@@ -14253,7 +14253,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D37")
+					(reference "D51")
 					(unit 1)
 				)
 			)
@@ -14269,7 +14269,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77173cb7-1503-4a12-8135-328c644e47c6")
-		(property "Reference" "D38"
+		(property "Reference" "D59"
 			(at 154.6225 148.59 0)
 			(effects
 				(font
@@ -14330,7 +14330,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D38")
+					(reference "D59")
 					(unit 1)
 				)
 			)
@@ -14482,7 +14482,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78d303fd-91fc-4e11-8cd4-4e962cc11474")
-		(property "Reference" "D26"
+		(property "Reference" "D30"
 			(at 204.1525 82.55 0)
 			(effects
 				(font
@@ -14543,7 +14543,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D26")
+					(reference "D30")
 					(unit 1)
 				)
 			)
@@ -14629,7 +14629,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ba53f73-9b8c-4e30-b2b5-01a1efd3221f")
-		(property "Reference" "D22"
+		(property "Reference" "D28"
 			(at 171.1325 82.55 0)
 			(effects
 				(font
@@ -14690,7 +14690,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D22")
+					(reference "D28")
 					(unit 1)
 				)
 			)
@@ -14776,7 +14776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7dd2d4e4-70db-4c80-9946-d28b1ca42fd3")
-		(property "Reference" "D21"
+		(property "Reference" "D20"
 			(at 171.1325 66.04 0)
 			(effects
 				(font
@@ -14837,7 +14837,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D21")
+					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -14923,7 +14923,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8308efc5-cfde-4761-806c-704ce7fc945b")
-		(property "Reference" "D27"
+		(property "Reference" "D23"
 			(at 220.6625 66.04 0)
 			(effects
 				(font
@@ -14984,7 +14984,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D27")
+					(reference "D23")
 					(unit 1)
 				)
 			)
@@ -15000,7 +15000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83158afd-492e-4d77-a844-b20faba59c5c")
-		(property "Reference" "D17"
+		(property "Reference" "D10"
 			(at 270.1925 33.02 0)
 			(effects
 				(font
@@ -15061,7 +15061,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D17")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -15286,7 +15286,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e6bad62-a339-48fb-a401-b7e1fba4fdcc")
-		(property "Reference" "D60"
+		(property "Reference" "D49"
 			(at 253.6825 115.57 0)
 			(effects
 				(font
@@ -15347,7 +15347,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D60")
+					(reference "D49")
 					(unit 1)
 				)
 			)
@@ -15363,7 +15363,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93f5ae3b-9805-4b9a-a713-04f5d64b4767")
-		(property "Reference" "D28"
+		(property "Reference" "D31"
 			(at 220.6625 82.55 0)
 			(effects
 				(font
@@ -15424,7 +15424,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D28")
+					(reference "D31")
 					(unit 1)
 				)
 			)
@@ -15440,7 +15440,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95d8d104-50a5-4325-acd0-4bb01fa3390f")
-		(property "Reference" "D39"
+		(property "Reference" "D36"
 			(at 171.1325 99.06 0)
 			(effects
 				(font
@@ -15501,7 +15501,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D39")
+					(reference "D36")
 					(unit 1)
 				)
 			)
@@ -15748,7 +15748,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99c93e5b-c1fe-4ee2-8ef8-96ec97ff2476")
-		(property "Reference" "D15"
+		(property "Reference" "D9"
 			(at 253.6825 33.02 0)
 			(effects
 				(font
@@ -15809,7 +15809,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D15")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -15825,7 +15825,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bd39c28-c0c4-44fe-b2b3-2eb8439a9b01")
-		(property "Reference" "D36"
+		(property "Reference" "D43"
 			(at 154.6225 115.57 0)
 			(effects
 				(font
@@ -15886,7 +15886,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D36")
+					(reference "D43")
 					(unit 1)
 				)
 			)
@@ -16113,7 +16113,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4d4f636-52bc-4a37-80b3-9a401596ae83")
-		(property "Reference" "D9"
+		(property "Reference" "D6"
 			(at 204.1525 33.02 0)
 			(effects
 				(font
@@ -16174,7 +16174,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D9")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -16267,7 +16267,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a72b300b-dc11-4c06-9e2d-6e25cf0ddd37")
-		(property "Reference" "D42"
+		(property "Reference" "D60"
 			(at 171.1325 148.59 0)
 			(effects
 				(font
@@ -16328,7 +16328,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D42")
+					(reference "D60")
 					(unit 1)
 				)
 			)
@@ -16411,7 +16411,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9e0bc76-287a-45dc-8975-0c1c56abae50")
-		(property "Reference" "D64"
+		(property "Reference" "D50"
 			(at 270.1925 115.57 0)
 			(effects
 				(font
@@ -16472,7 +16472,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D64")
+					(reference "D50")
 					(unit 1)
 				)
 			)
@@ -16913,7 +16913,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c03606f4-d126-4ca7-97ca-db744a5cdd3f")
-		(property "Reference" "D12"
+		(property "Reference" "D15"
 			(at 220.6625 49.53 0)
 			(effects
 				(font
@@ -16974,7 +16974,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D12")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -17130,7 +17130,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd047611-31b3-4049-8c06-9077f81aaacc")
-		(property "Reference" "D46"
+		(property "Reference" "D61"
 			(at 187.6425 148.59 0)
 			(effects
 				(font
@@ -17191,7 +17191,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D46")
+					(reference "D61")
 					(unit 1)
 				)
 			)
@@ -17347,7 +17347,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0c2c49f-e664-47dc-8a6a-758412e69227")
-		(property "Reference" "D50"
+		(property "Reference" "D62"
 			(at 204.1525 148.59 0)
 			(effects
 				(font
@@ -17408,7 +17408,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D50")
+					(reference "D62")
 					(unit 1)
 				)
 			)
@@ -17557,7 +17557,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6b59ff9-3b81-492f-9b9a-284b71d6fbc8")
-		(property "Reference" "D51"
+		(property "Reference" "D39"
 			(at 220.6625 99.06 0)
 			(effects
 				(font
@@ -17618,7 +17618,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D51")
+					(reference "D39")
 					(unit 1)
 				)
 			)
@@ -17634,7 +17634,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8ac9dd5-c28a-49af-ae9c-3331429892d7")
-		(property "Reference" "D7"
+		(property "Reference" "D5"
 			(at 187.6425 33.02 0)
 			(effects
 				(font
@@ -17695,7 +17695,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D7")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -17711,7 +17711,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da05db9a-134a-45b0-a13e-3cfeb65b76fb")
-		(property "Reference" "D14"
+		(property "Reference" "D16"
 			(at 237.1725 49.53 0)
 			(effects
 				(font
@@ -17772,7 +17772,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D14")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -17852,7 +17852,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfde681a-cb30-4d62-aed9-90549deffba5")
-		(property "Reference" "D59"
+		(property "Reference" "D41"
 			(at 253.6825 99.06 0)
 			(effects
 				(font
@@ -17913,7 +17913,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D59")
+					(reference "D41")
 					(unit 1)
 				)
 			)
@@ -18252,7 +18252,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e91edb37-3674-44d4-b6d9-f22d72d4b45f")
-		(property "Reference" "D4"
+		(property "Reference" "D11"
 			(at 154.6225 49.53 0)
 			(effects
 				(font
@@ -18313,7 +18313,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D4")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -18538,7 +18538,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efee51d0-5c5b-4a87-87c6-ad2986b0ea19")
-		(property "Reference" "D11"
+		(property "Reference" "D7"
 			(at 220.6625 33.02 0)
 			(effects
 				(font
@@ -18599,7 +18599,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D11")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -18615,7 +18615,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2973081-8c9c-44ad-86a5-51fbfecd3494")
-		(property "Reference" "D31"
+		(property "Reference" "D25"
 			(at 253.6825 66.04 0)
 			(effects
 				(font
@@ -18676,7 +18676,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D31")
+					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -18758,7 +18758,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f674f80d-c055-4d7d-b6b3-514ed1e5dc59")
-		(property "Reference" "D49"
+		(property "Reference" "D54"
 			(at 204.1525 132.08 0)
 			(effects
 				(font
@@ -18819,7 +18819,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D49")
+					(reference "D54")
 					(unit 1)
 				)
 			)
@@ -18835,7 +18835,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f81b859f-657b-412f-8071-1e08772f8074")
-		(property "Reference" "D30"
+		(property "Reference" "D32"
 			(at 237.1725 82.55 0)
 			(effects
 				(font
@@ -18896,7 +18896,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D30")
+					(reference "D32")
 					(unit 1)
 				)
 			)
@@ -18912,7 +18912,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8b20f9c-01a3-4ed0-ac85-5d6638abb2df")
-		(property "Reference" "D65"
+		(property "Reference" "D58"
 			(at 270.1925 132.08 0)
 			(effects
 				(font
@@ -18973,7 +18973,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D65")
+					(reference "D58")
 					(unit 1)
 				)
 			)
@@ -18989,7 +18989,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fbee9ebe-a752-49d7-80b2-fb6e00ed4fc3")
-		(property "Reference" "D20"
+		(property "Reference" "D27"
 			(at 154.6225 82.55 0)
 			(effects
 				(font
@@ -19050,7 +19050,7 @@
 		(instances
 			(project "f303k8-led-matrix"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "D20")
+					(reference "D27")
 					(unit 1)
 				)
 			)
