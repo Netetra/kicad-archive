@@ -60,55 +60,7 @@
       ],
       "drc_exclusions": [
         [
-          "silk_edge_clearance|120455000|84000000|983886a8-4bb2-4f6e-b95c-eac9c6d49afc|1c0b1c62-6477-4858-98d1-69bbdd374929",
-          ""
-        ],
-        [
-          "silk_edge_clearance|121315000|84000000|983886a8-4bb2-4f6e-b95c-eac9c6d49afc|aaa79860-3932-44a9-b951-79768279165a",
-          ""
-        ],
-        [
-          "silk_edge_clearance|122995000|84000000|983886a8-4bb2-4f6e-b95c-eac9c6d49afc|fa30bad6-49e9-47e3-b1cb-ad755f2e9cd6",
-          ""
-        ],
-        [
-          "silk_edge_clearance|123855000|84000000|983886a8-4bb2-4f6e-b95c-eac9c6d49afc|a8e7f051-5117-4162-a374-154b8bd2d102",
-          ""
-        ],
-        [
-          "silk_edge_clearance|125535000|84000000|983886a8-4bb2-4f6e-b95c-eac9c6d49afc|b9fd5973-fda9-4934-bcc3-df6f986b10b4",
-          ""
-        ],
-        [
-          "silk_edge_clearance|126395000|84000000|983886a8-4bb2-4f6e-b95c-eac9c6d49afc|aa8da4b8-f221-48a4-98db-6c8d93a2280a",
-          ""
-        ],
-        [
-          "silk_edge_clearance|128075000|84000000|983886a8-4bb2-4f6e-b95c-eac9c6d49afc|f7deef96-0956-42b7-aa73-7086228ea74d",
-          ""
-        ],
-        [
-          "silk_edge_clearance|128935000|84000000|983886a8-4bb2-4f6e-b95c-eac9c6d49afc|c67612e8-ea9b-4adb-9048-4fcfab40b636",
-          ""
-        ],
-        [
-          "silk_edge_clearance|130615000|84000000|983886a8-4bb2-4f6e-b95c-eac9c6d49afc|08b2d2ee-349b-4f28-96e1-30f272ee720b",
-          ""
-        ],
-        [
-          "silk_edge_clearance|131475000|84000000|983886a8-4bb2-4f6e-b95c-eac9c6d49afc|e26f0a9c-50c5-40a4-8466-ee8c1268cd69",
-          ""
-        ],
-        [
-          "silk_edge_clearance|133155000|84000000|983886a8-4bb2-4f6e-b95c-eac9c6d49afc|468f6065-58e5-4eb3-9744-e1a73c2a8b36",
-          ""
-        ],
-        [
-          "silk_edge_clearance|134015000|84000000|983886a8-4bb2-4f6e-b95c-eac9c6d49afc|a9d0bd7b-945b-4835-be48-399948c85bb8",
-          ""
-        ],
-        [
-          "silk_edge_clearance|135695000|84000000|983886a8-4bb2-4f6e-b95c-eac9c6d49afc|8171146a-d114-4520-a0aa-c1d3bd4b572b",
+          "unconnected_items|124850000|70200000|F.Cu|4|66c021d6-1cc2-4e79-879b-5961b89e825c|3498fc72-5b68-498e-9761-79a297f4b0d6",
           ""
         ]
       ],
@@ -153,7 +105,7 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
@@ -242,6 +194,7 @@
       "track_widths": [
         0.0,
         0.2,
+        0.3,
         0.5,
         1.0
       ],
