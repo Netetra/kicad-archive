@@ -58,12 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "unconnected_items|124850000|70200000|F.Cu|4|8dd24370-0fc9-4f86-8fe0-9a31de37c434|cd465814-42b1-482b-8ba3-ab8e4d7338e4",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -105,7 +100,7 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "ignore",
+        "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
@@ -194,7 +189,6 @@
       "track_widths": [
         0.0,
         0.2,
-        0.3,
         0.5,
         1.0
       ],
@@ -477,7 +471,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "can-tranceiver-module.kicad_pro",
+    "filename": "f303k8-dev-board-minimal.kicad_pro",
     "version": 3
   },
   "net_settings": {
