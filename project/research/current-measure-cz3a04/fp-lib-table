@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "AKM_CZ-3A0x") (type "KiCad") (uri "/home/netetra/git/netetra/kicad-archive/library/akm/AKM_CZ-3A0x.pretty") (options "") (descr ""))
+)
