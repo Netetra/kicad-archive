@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.75
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -198,6 +198,7 @@
         0.2,
         0.5,
         1.0,
+        2.5,
         5.0
       ],
       "tuning_pattern_settings": {
@@ -493,7 +494,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "current-measure-cz3a04.kicad_pro",
+    "filename": "xc9704b75cpr-g.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -652,18 +653,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "current-measure-cz3a04.kicad_sch",
-        "name": "current-measure-cz3a04",
+        "filename": "xc9704b75cpr-g.kicad_sch",
+        "name": "xc9704b75cpr-g",
         "uuid": "1ffc8a7d-446d-4d87-80cb-e72e4474d330"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J1-3,U2,U8,R3-4,R27-28,L1-2,D2,D4,C1,C4-7,C19-21,#PWR1-7,#PWR44-49,#FLG3-5",
     "variants": []
   },
   "sheets": [
     [
       "1ffc8a7d-446d-4d87-80cb-e72e4474d330",
-      "current-measure-cz3a04"
+      "xc9704b75cpr-g"
     ]
   ],
   "text_variables": {},
