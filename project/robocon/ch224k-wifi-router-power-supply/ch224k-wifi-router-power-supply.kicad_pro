@@ -78,55 +78,27 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|132775000|74025000|c028c0cb-ceec-4c4b-8632-343aaa1b8bd7|e825b2ba-15f9-4732-ba8f-b89b17b7a547",
+          "silk_edge_clearance|146000000|72940000|7e887bea-b96d-4af7-9dd7-e89c1ced53f4|02597da9-4eb1-4900-ba7d-fc3d46a1fdfc",
           ""
         ],
         [
-          "courtyards_overlap|135920000|73575000|e825b2ba-15f9-4732-ba8f-b89b17b7a547|f94f0eaa-68b0-4643-b63f-a6214336bded",
+          "silk_edge_clearance|146000000|83060000|7e887bea-b96d-4af7-9dd7-e89c1ced53f4|c298f061-0b15-470b-8d4f-eb06d96f0aee",
           ""
         ],
         [
-          "courtyards_overlap|136105000|77283257|c0a44ab5-e92f-4778-ad90-38ce3bd05e53|f94f0eaa-68b0-4643-b63f-a6214336bded",
+          "silk_edge_clearance|146010000|72940000|7e887bea-b96d-4af7-9dd7-e89c1ced53f4|f2239289-512e-46af-bf13-ebd0d4c83379",
           ""
         ],
         [
-          "courtyards_overlap|136105000|80783257|c0a44ab5-e92f-4778-ad90-38ce3bd05e53|d3971e39-b065-4251-a83f-8a0bbb05f15a",
+          "silk_edge_clearance|146010000|73470000|7e887bea-b96d-4af7-9dd7-e89c1ced53f4|2d2a2c04-8e13-4b30-ba6a-5a5af9bfdfcf",
           ""
         ],
         [
-          "courtyards_overlap|139905000|79257500|b65c66b1-d82f-4fe2-b822-043368152426|c7fec865-0b02-4009-80e3-f5a64a506a98",
+          "silk_edge_clearance|146010000|82530000|7e887bea-b96d-4af7-9dd7-e89c1ced53f4|6af523f0-612f-4637-876a-d7b3b75ac7db",
           ""
         ],
         [
-          "silk_edge_clearance|171000000|62190000|ac761a14-d635-45a1-9ed6-bc4f06e23974|40711d97-eda5-4b30-9f15-0677a218529e",
-          ""
-        ],
-        [
-          "silk_edge_clearance|171000000|72310000|ac761a14-d635-45a1-9ed6-bc4f06e23974|a18b1534-6392-48cd-bf54-2f99338d7a0c",
-          ""
-        ],
-        [
-          "silk_edge_clearance|171010000|62190000|ac761a14-d635-45a1-9ed6-bc4f06e23974|e0dcb143-e5b2-4c42-a53b-b613f146b3c6",
-          ""
-        ],
-        [
-          "silk_edge_clearance|171010000|62720000|ac761a14-d635-45a1-9ed6-bc4f06e23974|3573acdc-7095-418e-9926-53265d7fe79e",
-          ""
-        ],
-        [
-          "silk_edge_clearance|171010000|71780000|ac761a14-d635-45a1-9ed6-bc4f06e23974|62d2a8cc-2576-40f7-aba3-7b42f883afb9",
-          ""
-        ],
-        [
-          "silk_edge_clearance|171010000|71780000|ac761a14-d635-45a1-9ed6-bc4f06e23974|eefe6608-63a3-4195-a130-9ae6ccae2d86",
-          ""
-        ],
-        [
-          "text_height|128000000|61000000|6ed8f42e-d0ea-4287-b0d6-4b10ac8f311c|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "text_height|129500000|61000000|b281bbd0-a930-4aee-aaf8-643725f4aaf0|00000000-0000-0000-0000-000000000000",
+          "silk_edge_clearance|146010000|82530000|7e887bea-b96d-4af7-9dd7-e89c1ced53f4|91f3befa-3c7d-4691-bb35-efbda284c84d",
           ""
         ]
       ],
@@ -215,7 +187,7 @@
         "min_track_width": 0.16,
         "min_via_annular_width": 0.05,
         "min_via_diameter": 0.25,
-        "solder_mask_to_copper_clearance": 0.005,
+        "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -522,7 +494,6 @@
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
-      "global_label_dangling": "warning",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
       "isolated_pin_label": "warning",
@@ -562,7 +533,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "dc-for-385-v2.kicad_pro",
+    "filename": "ch224k-wifi-router-power-supply.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -676,32 +647,14 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "説明",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "",
+      "name": "Default Editing",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "リファレンス"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -732,33 +685,25 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
-    "space_save_all_events": true,
-    "spice_current_sheet_as_root": false,
-    "spice_external_command": "spice \"%I\"",
-    "spice_model_current_sheet_as_root": true,
-    "spice_save_all_currents": false,
-    "spice_save_all_dissipations": false,
-    "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "dc-for-385-v2.kicad_sch",
-        "name": "dc-for-385-v2",
+        "filename": "ch224k-wifi-router-power-supply.kicad_sch",
+        "name": "ch224k-wifi-router-power-supply",
         "uuid": "1ffc8a7d-446d-4d87-80cb-e72e4474d330"
       }
     ],
-    "used_designators": "R14",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
     [
       "1ffc8a7d-446d-4d87-80cb-e72e4474d330",
-      "dc-for-385-v2"
+      "ch224k-wifi-router-power-supply"
     ]
   ],
   "text_variables": {},
