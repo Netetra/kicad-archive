@@ -882,12 +882,139 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 182.88 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "302a34fd-2cf7-409d-9011-febd791c46f3")
 	)
 	(junction
 		(at 171.45 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4d69d4cf-cea6-4616-a19f-7f8984d99f7d")
+	)
+	(junction
+		(at 185.42 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ea6d298-90c1-4a3f-887c-7768d3daced0")
 	)
 	(junction
 		(at 151.13 77.47)
@@ -914,22 +1041,22 @@
 		(uuid "76429c38-4e49-4097-8273-b31fa791231d")
 	)
 	(junction
-		(at 185.42 77.47)
+		(at 196.85 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "86ad126a-7b91-483f-86dd-a67c030a72fe")
+		(uuid "892366b6-acb1-402f-8669-97a02e0a03e2")
+	)
+	(junction
+		(at 196.85 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a87f6aa4-8fee-4142-bd7d-6073dba97208")
 	)
 	(junction
 		(at 148.59 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac0d1261-45d9-46da-bc46-c016e2fa43e6")
-	)
-	(junction
-		(at 182.88 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bc7efce1-a743-42b0-88cf-5cab59199e4b")
 	)
 	(junction
 		(at 162.56 77.47)
@@ -1025,6 +1152,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 74.93) (xy 196.85 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4baa130a-29a0-4d72-bc5d-950c2b4b831f")
+	)
+	(wire
+		(pts
 			(xy 151.13 74.93) (xy 151.13 77.47)
 		)
 		(stroke
@@ -1065,7 +1202,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 80.01) (xy 182.88 80.01)
+			(xy 198.12 80.01) (xy 196.85 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1085,6 +1222,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 80.01) (xy 196.85 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81f5e6fb-8fc6-48ed-a5ac-9ec31d83139f")
+	)
+	(wire
+		(pts
 			(xy 185.42 74.93) (xy 185.42 77.47)
 		)
 		(stroke
@@ -1095,7 +1242,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 77.47) (xy 185.42 77.47)
+			(xy 198.12 77.47) (xy 196.85 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1193,6 +1340,26 @@
 		)
 		(uuid "f90b9416-febd-4326-869b-c237e02db759")
 	)
+	(wire
+		(pts
+			(xy 196.85 77.47) (xy 185.42 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fac8feb0-73ae-4a99-993c-a9f40e46d945")
+	)
+	(wire
+		(pts
+			(xy 196.85 80.01) (xy 182.88 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd400458-23e1-4d34-ad02-df944d486cfd")
+	)
 	(symbol
 		(lib_id "Device:R")
 		(at 118.11 74.93 0)
@@ -1277,7 +1444,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 207.01 85.09 0)
+		(at 130.81 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1288,7 +1455,7 @@
 		(fields_autoplaced yes)
 		(uuid "2272a9e7-5283-47ec-81bf-189bf7a62d8d")
 		(property "Reference" "H3"
-			(at 209.55 83.8199 0)
+			(at 133.35 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1299,7 +1466,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 209.55 86.3599 0)
+			(at 133.35 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1310,7 +1477,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 207.01 85.09 0)
+			(at 130.81 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1321,7 +1488,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 85.09 0)
+			(at 130.81 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1332,7 +1499,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 207.01 85.09 0)
+			(at 130.81 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1346,6 +1513,162 @@
 			(project "xt60-power-hub"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 196.85 82.55 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2dcc1dc3-d3dd-4552-a7ba-b3116ccc55f7")
+		(property "Reference" "#FLG02"
+			(at 196.85 84.455 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 196.85 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 196.85 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9bb27362-966a-41bd-af22-99c9447c43f2")
+		)
+		(instances
+			(project "xt60-power-hub"
+				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 196.85 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2fa47975-17dd-4052-a978-93c8087f84ed")
+		(property "Reference" "#FLG01"
+			(at 196.85 73.025 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 196.85 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 196.85 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a10beef6-8163-4fda-b261-af9166792b7b")
+		)
+		(instances
+			(project "xt60-power-hub"
+				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -1513,7 +1836,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 207.01 80.01 0)
+		(at 130.81 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1524,7 +1847,7 @@
 		(fields_autoplaced yes)
 		(uuid "6bad08fe-7db1-46bb-ac98-6b82501f7fbe")
 		(property "Reference" "H2"
-			(at 209.55 78.7399 0)
+			(at 133.35 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1535,7 +1858,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 209.55 81.2799 0)
+			(at 133.35 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1546,7 +1869,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 207.01 80.01 0)
+			(at 130.81 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1557,7 +1880,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 80.01 0)
+			(at 130.81 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1568,7 +1891,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 207.01 80.01 0)
+			(at 130.81 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1667,7 +1990,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 207.01 74.93 0)
+		(at 130.81 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1678,7 +2001,7 @@
 		(fields_autoplaced yes)
 		(uuid "810c30c1-17d0-4b72-93fb-83c6c2d38ad6")
 		(property "Reference" "H1"
-			(at 209.55 73.6599 0)
+			(at 133.35 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1689,7 +2012,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 209.55 76.1999 0)
+			(at 133.35 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1700,7 +2023,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 207.01 74.93 0)
+			(at 130.81 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1711,7 +2034,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 74.93 0)
+			(at 130.81 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1722,7 +2045,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 207.01 74.93 0)
+			(at 130.81 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2070,7 +2393,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 195.58 80.01 0)
+		(at 203.2 80.01 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -2081,7 +2404,7 @@
 		(dnp no)
 		(uuid "c9ac1c33-e217-45d9-b643-ab8b4ee68fa7")
 		(property "Reference" "J6"
-			(at 199.39 77.4699 0)
+			(at 207.01 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2092,7 +2415,7 @@
 			)
 		)
 		(property "Value" "OUT5"
-			(at 201.93 80.01 0)
+			(at 209.55 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2103,7 +2426,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-F_1x02_P7.20mm_Horizontal"
-			(at 195.58 80.01 0)
+			(at 203.2 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2114,7 +2437,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 80.01 0)
+			(at 203.2 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2125,7 +2448,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 195.58 80.01 0)
+			(at 203.2 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2323,7 +2646,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 207.01 90.17 0)
+		(at 130.81 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2334,7 +2657,7 @@
 		(fields_autoplaced yes)
 		(uuid "f3205f30-5b72-40e7-8dac-78e73f6cb369")
 		(property "Reference" "H4"
-			(at 209.55 88.8999 0)
+			(at 133.35 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2345,7 +2668,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 209.55 91.4399 0)
+			(at 133.35 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2356,7 +2679,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 207.01 90.17 0)
+			(at 130.81 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2367,7 +2690,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 90.17 0)
+			(at 130.81 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2378,7 +2701,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 207.01 90.17 0)
+			(at 130.81 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
