@@ -60,9 +60,9 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.25,
+          "min_clearance": 0.5,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
+          "min_thickness": 0.5,
           "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
@@ -76,112 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "hole_clearance|86005000|58475000|40ab2d59-eef2-4fb1-8009-a44bc623d038|f6475670-b296-4115-8af6-a3ac2a7ccb48",
-          ""
-        ],
-        [
-          "hole_clearance|86005000|58475000|78602197-5033-4ea0-bd89-445ee6cbc568|f6475670-b296-4115-8af6-a3ac2a7ccb48",
-          ""
-        ],
-        [
-          "hole_clearance|86005000|58975000|805533d1-360f-4368-a03e-165a6253ae2f|f6475670-b296-4115-8af6-a3ac2a7ccb48",
-          ""
-        ],
-        [
-          "hole_clearance|86005000|58975000|a86a13b0-b5f6-4c9a-901a-a7a47d69125c|f6475670-b296-4115-8af6-a3ac2a7ccb48",
-          ""
-        ],
-        [
-          "hole_clearance|86005000|64075000|04dece1d-f3ea-4306-8b61-2e19a540d23c|d328544d-79b1-4219-a9de-09f15cc26ae5",
-          ""
-        ],
-        [
-          "hole_clearance|86005000|64075000|94bff54c-5234-4af0-8b9c-7ed003d466f2|d328544d-79b1-4219-a9de-09f15cc26ae5",
-          ""
-        ],
-        [
-          "hole_clearance|86005000|64575000|3f41fdae-990d-4533-a145-670c3be342ca|d328544d-79b1-4219-a9de-09f15cc26ae5",
-          ""
-        ],
-        [
-          "hole_clearance|86005000|64575000|631b88d1-e776-4d4b-b6d4-aa55c686baba|d328544d-79b1-4219-a9de-09f15cc26ae5",
-          ""
-        ],
-        [
-          "silk_over_copper|82364000|88010000|8a6ceada-e106-4058-a6f6-e9eceff61c8e|10c91535-bc90-495e-9f31-b51c417bd083",
-          ""
-        ],
-        [
-          "silk_over_copper|82368000|70230000|3e0a8157-ec4f-4c4f-ae55-6f9d63f4a02b|3473d176-9295-4dc6-bb97-96912085637b",
-          ""
-        ],
-        [
-          "silk_over_copper|83880000|70230000|221a0e74-31d1-46c9-8757-f0b620c48c3b|3473d176-9295-4dc6-bb97-96912085637b",
-          ""
-        ],
-        [
-          "silk_over_copper|83880000|88010000|3272ee72-9190-4f75-9908-f255fda167bc|10c91535-bc90-495e-9f31-b51c417bd083",
-          ""
-        ],
-        [
-          "silk_over_copper|86420000|70230000|221a0e74-31d1-46c9-8757-f0b620c48c3b|e782f2d6-d4aa-42a6-b478-1883f6d33bc9",
-          ""
-        ],
-        [
-          "silk_over_copper|86420000|88010000|3272ee72-9190-4f75-9908-f255fda167bc|63db1b5c-3d76-4668-9324-5a0e4d938734",
-          ""
-        ],
-        [
-          "silk_over_copper|88960000|70230000|221a0e74-31d1-46c9-8757-f0b620c48c3b|306eff28-5db2-46f9-83b4-4dccd3759925",
-          ""
-        ],
-        [
-          "silk_over_copper|88960000|88010000|3272ee72-9190-4f75-9908-f255fda167bc|e2687dda-466d-4dcb-bc9f-b52e4cf33097",
-          ""
-        ],
-        [
-          "silk_over_copper|91500000|70230000|221a0e74-31d1-46c9-8757-f0b620c48c3b|d3b2f0e6-1933-4e42-995c-63d8d5e19976",
-          ""
-        ],
-        [
-          "silk_over_copper|91500000|88010000|3272ee72-9190-4f75-9908-f255fda167bc|37202d67-d924-4a4f-8f44-6e9cfbb43981",
-          ""
-        ],
-        [
-          "silk_over_copper|94040000|70230000|221a0e74-31d1-46c9-8757-f0b620c48c3b|2761bcba-cf42-4f47-9f90-810775ab900c",
-          ""
-        ],
-        [
-          "silk_over_copper|94040000|88010000|3272ee72-9190-4f75-9908-f255fda167bc|85e54ec7-507b-4807-abd4-1e16b57cc225",
-          ""
-        ],
-        [
-          "silk_over_copper|96580000|70230000|221a0e74-31d1-46c9-8757-f0b620c48c3b|cff325a3-5100-468e-bd6a-0b812011c6ce",
-          ""
-        ],
-        [
-          "silk_over_copper|96580000|88010000|3272ee72-9190-4f75-9908-f255fda167bc|e9edd602-2dc7-4703-8ccf-a0f62a5d5dfc",
-          ""
-        ],
-        [
-          "silk_over_copper|99120000|70230000|221a0e74-31d1-46c9-8757-f0b620c48c3b|8cb6e1cb-fdfd-4627-a535-3a6bb98cf192",
-          ""
-        ],
-        [
-          "silk_over_copper|99120000|88010000|3272ee72-9190-4f75-9908-f255fda167bc|718f0e11-4780-4778-af14-b88defa0e16c",
-          ""
-        ],
-        [
-          "silk_over_copper|99513000|70230000|01e8b0a4-02f6-4491-baeb-594292fd6141|8cb6e1cb-fdfd-4627-a535-3a6bb98cf192",
-          ""
-        ],
-        [
-          "silk_over_copper|99513000|88010000|a7685215-91c4-4504-a8b5-30d1259212df|718f0e11-4780-4778-af14-b88defa0e16c",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -574,7 +469,6 @@
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
-      "global_label_dangling": "warning",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
       "isolated_pin_label": "warning",
@@ -614,7 +508,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "esp32s3-main-v1.kicad_pro",
+    "filename": "can-power-hub.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -766,33 +660,25 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
-    "space_save_all_events": true,
-    "spice_current_sheet_as_root": false,
-    "spice_external_command": "spice \"%I\"",
-    "spice_model_current_sheet_as_root": true,
-    "spice_save_all_currents": false,
-    "spice_save_all_dissipations": false,
-    "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "esp32s3-main-v1.kicad_sch",
-        "name": "esp32s3-main-v1",
+        "filename": "can-power-hub.kicad_sch",
+        "name": "can-power-hub",
         "uuid": "1ffc8a7d-446d-4d87-80cb-e72e4474d330"
       }
     ],
-    "used_designators": "H1-2,#FLG1-3,R1-3,J1-4,C1,C3-6,#PWR1-23,U1-5",
+    "used_designators": "H1-4,D1,R1,#FLG1-4,#PWR1-14,U1,J1-7",
     "variants": []
   },
   "sheets": [
     [
       "1ffc8a7d-446d-4d87-80cb-e72e4474d330",
-      "esp32s3-main-v1"
+      "can-power-hub"
     ]
   ],
   "text_variables": {},

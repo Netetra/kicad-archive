@@ -1,0 +1,8 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+D1,0603,1,LED,
+J1,AMASS_XT60PW-M_1x02_P7.20mm_Horizontal,1,IN,
+J2,AMASS_XT60PW-F_1x02_P7.20mm_Horizontal,1,OUT1,
+J3,AMASS_XT60PW-F_1x02_P7.20mm_Horizontal,1,OUT2,
+J4,AMASS_XT60PW-F_1x02_P7.20mm_Horizontal,1,OUT3,
+J5,AMASS_XT60PW-F_1x02_P7.20mm_Horizontal,1,OUT5,
+R1,0603,1,10kΩ,

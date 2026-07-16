@@ -999,24 +999,6 @@
 		)
 	)
 	(junction
-		(at 182.88 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "302a34fd-2cf7-409d-9011-febd791c46f3")
-	)
-	(junction
-		(at 171.45 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4d69d4cf-cea6-4616-a19f-7f8984d99f7d")
-	)
-	(junction
-		(at 185.42 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5ea6d298-90c1-4a3f-887c-7768d3daced0")
-	)
-	(junction
 		(at 151.13 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1041,13 +1023,19 @@
 		(uuid "76429c38-4e49-4097-8273-b31fa791231d")
 	)
 	(junction
-		(at 196.85 80.01)
+		(at 173.99 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "772b240a-b0b0-4d18-b557-371fca1b9607")
+	)
+	(junction
+		(at 186.69 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "892366b6-acb1-402f-8669-97a02e0a03e2")
 	)
 	(junction
-		(at 196.85 77.47)
+		(at 186.69 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a87f6aa4-8fee-4142-bd7d-6073dba97208")
@@ -1065,10 +1053,10 @@
 		(uuid "c970205f-21e9-4b50-9a15-c58de07ddd25")
 	)
 	(junction
-		(at 173.99 77.47)
+		(at 171.45 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e6a49b46-b107-4243-890c-5435bdeef8e5")
+		(uuid "ed2b6fad-94cc-4f13-b819-bb6beedd9f25")
 	)
 	(wire
 		(pts
@@ -1152,7 +1140,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 74.93) (xy 196.85 77.47)
+			(xy 186.69 74.93) (xy 186.69 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1182,7 +1170,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 80.01) (xy 171.45 80.01)
+			(xy 171.45 80.01) (xy 186.69 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1202,7 +1190,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 80.01) (xy 196.85 80.01)
+			(xy 187.96 80.01) (xy 186.69 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1222,7 +1210,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 80.01) (xy 196.85 82.55)
+			(xy 186.69 80.01) (xy 186.69 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1232,17 +1220,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 74.93) (xy 185.42 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8652e2a2-4d54-430b-a4e4-bc3e5c6584d7")
-	)
-	(wire
-		(pts
-			(xy 198.12 77.47) (xy 196.85 77.47)
+			(xy 187.96 77.47) (xy 186.69 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1262,7 +1240,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 77.47) (xy 173.99 77.47)
+			(xy 173.99 77.47) (xy 186.69 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1302,16 +1280,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 74.93) (xy 182.88 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1309bc2-c020-4611-bb90-904ef14b962d")
-	)
-	(wire
-		(pts
 			(xy 171.45 74.93) (xy 171.45 80.01)
 		)
 		(stroke
@@ -1339,26 +1307,6 @@
 			(type default)
 		)
 		(uuid "f90b9416-febd-4326-869b-c237e02db759")
-	)
-	(wire
-		(pts
-			(xy 196.85 77.47) (xy 185.42 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fac8feb0-73ae-4a99-993c-a9f40e46d945")
-	)
-	(wire
-		(pts
-			(xy 196.85 80.01) (xy 182.88 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd400458-23e1-4d34-ad02-df944d486cfd")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -1520,7 +1468,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 196.85 82.55 180)
+		(at 186.69 82.55 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1531,7 +1479,7 @@
 		(fields_autoplaced yes)
 		(uuid "2dcc1dc3-d3dd-4552-a7ba-b3116ccc55f7")
 		(property "Reference" "#FLG02"
-			(at 196.85 84.455 0)
+			(at 186.69 84.455 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1542,7 +1490,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 196.85 87.63 0)
+			(at 186.69 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1552,7 +1500,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 82.55 0)
+			(at 186.69 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1563,7 +1511,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 82.55 0)
+			(at 186.69 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1574,7 +1522,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 196.85 82.55 0)
+			(at 186.69 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1598,7 +1546,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 196.85 74.93 0)
+		(at 186.69 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1609,7 +1557,7 @@
 		(fields_autoplaced yes)
 		(uuid "2fa47975-17dd-4052-a978-93c8087f84ed")
 		(property "Reference" "#FLG01"
-			(at 196.85 73.025 0)
+			(at 186.69 73.025 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1620,7 +1568,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 196.85 69.85 0)
+			(at 186.69 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1630,7 +1578,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 74.93 0)
+			(at 186.69 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1641,7 +1589,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 74.93 0)
+			(at 186.69 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1652,7 +1600,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 196.85 74.93 0)
+			(at 186.69 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2229,88 +2177,6 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 182.88 69.85 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aceae1d6-c8c7-4896-925e-500481a2e49d")
-		(property "Reference" "J5"
-			(at 186.69 69.2149 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "OUT4"
-			(at 186.69 71.7549 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-F_1x02_P7.20mm_Horizontal"
-			(at 182.88 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 182.88 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fe450515-3402-4908-94b9-c29e27581ec4")
-		)
-		(pin "2"
-			(uuid "6bbce07f-84d2-49cd-b18c-b3d60bd35394")
-		)
-		(instances
-			(project "xt60-power-hub"
-				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
 		(at 171.45 69.85 90)
 		(unit 1)
 		(body_style 1)
@@ -2393,7 +2259,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 203.2 80.01 0)
+		(at 193.04 80.01 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -2403,8 +2269,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c9ac1c33-e217-45d9-b643-ab8b4ee68fa7")
-		(property "Reference" "J6"
-			(at 207.01 77.4699 0)
+		(property "Reference" "J5"
+			(at 196.85 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2415,7 +2281,7 @@
 			)
 		)
 		(property "Value" "OUT5"
-			(at 209.55 80.01 0)
+			(at 199.39 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2426,7 +2292,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-F_1x02_P7.20mm_Horizontal"
-			(at 203.2 80.01 0)
+			(at 193.04 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2437,7 +2303,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 80.01 0)
+			(at 193.04 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2448,7 +2314,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 203.2 80.01 0)
+			(at 193.04 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2467,7 +2333,7 @@
 		(instances
 			(project "xt60-power-hub"
 				(path "/1ffc8a7d-446d-4d87-80cb-e72e4474d330"
-					(reference "J6")
+					(reference "J5")
 					(unit 1)
 				)
 			)
