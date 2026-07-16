@@ -3678,6 +3678,84 @@
 		(layer "Edge.Cuts")
 		(uuid "c5f6786f-899e-4f08-90f6-a6950e830950")
 	)
+	(gr_text "CAN_L\nCAN_H\nGND\n5V"
+		(at 41.5 107 0)
+		(layer "B.SilkS")
+		(uuid "71c816c5-78d4-4a2b-ae14-347bf409fce3")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left mirror)
+		)
+	)
+	(gr_text "CAN_L\nCAN_H\nGND\n5V"
+		(at 111.5 107 180)
+		(layer "B.SilkS")
+		(uuid "8dcf76b5-3f6c-4a1c-8efc-66aaf7d35780")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left mirror)
+		)
+	)
+	(gr_text "CAN_L\nCAN_H\nGND\n5V"
+		(at 54 101.5 270)
+		(layer "B.SilkS")
+		(uuid "1501212b-dec9-43ce-9132-a2ab9ba3cea8")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left mirror)
+		)
+	)
+	(gr_text "CAN_L\nCAN_H\nGND\n5V"
+		(at 69 101.5 270)
+		(layer "B.SilkS")
+		(uuid "06773044-0e1a-4063-a2b5-0ea4a97d8ed6")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left mirror)
+		)
+	)
+	(gr_text "CAN_L\nCAN_H\nGND\n5V"
+		(at 84 101.5 270)
+		(layer "B.SilkS")
+		(uuid "7d1d1ac4-3631-4da3-bc1e-96bbe96db574")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left mirror)
+		)
+	)
+	(gr_text "CAN_L\nCAN_H\nGND\n5V"
+		(at 99 101.5 270)
+		(layer "B.SilkS")
+		(uuid "6dd0e9f5-d52b-4666-b469-e77987f57617")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left mirror)
+		)
+	)
 	(dimension
 		(type orthogonal)
 		(layer "Dwgs.User")
