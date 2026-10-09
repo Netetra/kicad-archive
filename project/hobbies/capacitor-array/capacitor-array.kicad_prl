@@ -61,7 +61,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "can-tranceiver-module.kicad_prl",
+    "filename": "capacitor-array.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {

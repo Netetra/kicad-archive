@@ -63,7 +63,7 @@
           "min_clearance": 0.5,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -76,12 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "unconnected_items|124850000|70200000|F.Cu|4|8dd24370-0fc9-4f86-8fe0-9a31de37c434|cd465814-42b1-482b-8ba3-ab8e4d7338e4",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -125,7 +120,7 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "ignore",
+        "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
@@ -217,7 +212,6 @@
       "track_widths": [
         0.0,
         0.2,
-        0.3,
         0.5,
         1.0
       ],
@@ -475,7 +469,6 @@
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
-      "global_label_dangling": "warning",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
       "isolated_pin_label": "warning",
@@ -515,7 +508,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "can-tranceiver-module.kicad_pro",
+    "filename": "capacitor-array.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -620,6 +613,18 @@
         },
         {
           "group_by": true,
+          "label": "Exclude from Simulation",
+          "name": "${EXCLUDE_FROM_SIM}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from Position Files",
+          "name": "${EXCLUDE_FROM_POS_FILES}",
+          "show": true
+        },
+        {
+          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -667,33 +672,25 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
-    "space_save_all_events": true,
-    "spice_current_sheet_as_root": false,
-    "spice_external_command": "spice \"%I\"",
-    "spice_model_current_sheet_as_root": true,
-    "spice_save_all_currents": false,
-    "spice_save_all_dissipations": false,
-    "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "can-tranceiver-module.kicad_sch",
-        "name": "can-tranceiver-module",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "filename": "capacitor-array.kicad_sch",
+        "name": "capacitor-array",
+        "uuid": "1ffc8a7d-446d-4d87-80cb-e72e4474d330"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J1-2,C1-8",
     "variants": []
   },
   "sheets": [
     [
       "1ffc8a7d-446d-4d87-80cb-e72e4474d330",
-      "Root"
+      "capacitor-array"
     ]
   ],
   "text_variables": {},
